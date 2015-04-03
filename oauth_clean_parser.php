@@ -86,6 +86,6 @@ echo "Total Number of sites: ".$total." <br/>";
 echo "Total Number of sites using javascript: ".$javascript."<br/>";
 echo "Total Number of vulnerable sites: ".$vulnerable." <br/>";
 echo "Total Number of secure sites: ".$secure." <br/>";
-echo "Total Number of uncategorized sites: ".$uncategorized." <br/>";
+//echo "Total Number of uncategorized sites: ".$uncategorized." <br/>";
 
 ?>
