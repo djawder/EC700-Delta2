@@ -61,13 +61,13 @@ foreach($dom->getElementsByTagName('a') as $link) {
 				if((strpos($linkInner->getAttribute('href'), "response_type")!==false||strpos($linkInner->getAttribute('href'), "token")!==false)&&strpos($linkInner->getAttribute('href'), "oauth")!==false)
 				{
 					echo "<td><font color=red>Vulnerable</font></td> ";
-					$vulnerable=vulnerable+1;
+					$vulnerable=$vulnerable+1;
 				}
 				elseif(strpos($linkInner->getAttribute('href'), "facebook")===false)
 				{
 					
 					echo "<td><font color=red>Vulnerable</font></td> ";
-					$vulnerable=vulnerable+1;
+					$vulnerable=$vulnerable+1;
 				}
 				else
 				{
